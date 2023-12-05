@@ -1,7 +1,9 @@
 # gcp-scripts
 Scripts for managing GCP resources
 
-## gcp_snapshots_add_labels_between_dates.sh
+## Bash Scripts
+
+## bash/gcp_snapshots_add_labels_between_dates.sh
 
 Script to add labels to Compute Disk Snapshots created between 2 dates
 
@@ -13,3 +15,5 @@ Example:
 ```sh 
 gcp_snapshots_add_labels_between_dates.sh [2023-01-01] [2023-02-01] [component=disk-snapshot]
 ```
+
+## Python Scripts
