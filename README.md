@@ -13,7 +13,7 @@ gcp_snapshots_add_labels_between_dates.sh [start-date-utc] [end-date-utc] [label
 ```
 Example: 
 ```sh 
-gcp_snapshots_add_labels_between_dates.sh [2023-01-01] [2023-02-01] [component=disk-snapshot]
+gcp_snapshots_add_labels_between_dates.sh "2023-01-01" "2023-02-01" "component=disk-snapshot"
 ```
 
 ## bash/gcp_snapshots_delete_between_dates.sh
