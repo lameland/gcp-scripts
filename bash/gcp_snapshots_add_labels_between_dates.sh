@@ -4,7 +4,7 @@ if [ "$#" -ne 3 ];
 then
     >&2 echo "No arguments provided"
     >&2 echo "Usage: gcp_snapshots_add_labels_between_dates.sh [start-date-utc] [end-date-utc] [label-key=label-value]"
-    >&2 echo "Example: gcp_snapshots_add_labels_between_dates.sh [2023-01-01] [2023-02-01] [component=disk-snapshot]"
+    >&2 echo "Example: gcp_snapshots_add_labels_between_dates.sh \"2023-01-01\" \"2023-02-01"\ \"component=disk-snapshot\""
     exit 1
 fi
 
